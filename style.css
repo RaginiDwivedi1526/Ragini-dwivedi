@@ -1,0 +1,31 @@
+/* Hero Section */
+.bg-hero {
+  background: linear-gradient(to right, #1d2b64, #f8cdda);
+  background-size: cover;
+  background-position: center;
+}
+
+.animate {
+  animation: fadeInDown 1s ease-out;
+}
+
+@keyframes fadeInDown {
+  0% { opacity: 0; transform: translateY(-30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Gallery Hover */
+.gallery-img {
+  transition: transform 0.3s ease;
+}
+.gallery-img:hover {
+  transform: scale(1.05);
+}
+
+/* Navbar transparent effect */
+.navbar {
+  transition: background 0.3s ease;
+}
+.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.8) !important;
+}

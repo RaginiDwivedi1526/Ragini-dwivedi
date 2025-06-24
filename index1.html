@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ragini Dwivedi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent">
+  <div class="container">
+    <a class="navbar-brand fw-bold fs-4 text-white" href="#">Ragini D.</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="nav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#resume">Resume</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#gallery">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#connect">Connect</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<header id="home" class="vh-100 d-flex align-items-center text-white bg-hero">
+  <div class="container text-center">
+    <h1 class="display-4 fw-bold animate">Hi, I'm Ragini Dwivedi</h1>
+    <p class="lead">Actress | Fashion Influencer | Creator</p>
+    <a href="#about" class="btn btn-outline-light mt-3">Know More</a>
+  </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="image\program-bachelor-of-science-in-computer-science-1920x1080-1 (1).webp" class="img-fluid rounded shadow" alt="Ragini">
+      </div>
+      <div class="col-md-6">
+        <h2 class="fw-bold">About Me</h2>
+        <p>Hello! I'm Ragini Dwivedi, a full stack developer. With over a decade of experience in the technical industries, I've built a career that's both creative and knowledgable.</p>
+        <p>I love coding , problem solving , reading novels and books.</p>
+        <ul class="list-unstyled mt-3">
+          <li><i class="fa fa-star text-warning me-2"></i> Experience with projects only and basically i am a freshers</li>
+          <li><i class="fa fa-camera-retro text-danger me-2"></i> Full Stack developer</li>
+          <li><i class="fa fa-heart text-pink me-2"></i> Developer</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Resume Section -->
+<section id="resume" class="py-5 text-center bg-white">
+  <div class="container">
+    <h2 class="fw-bold mb-4">My Resume</h2>
+    <p class="mb-4">Download my professional resume to learn more about my career, achievements, and creative journey.</p>
+    <a href="ragini.resume2[1][1].pdf" class="btn btn-outline-dark btn-lg" download>
+      <i class="fas fa-download me-2"></i>Download Resume
+    </a>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Photo Gallery</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <img src=" image/WhatsApp Image 2025-06-23 at 16.42.19_bd4aa741.jpg" class="img-fluid rounded shadow gallery-img" alt="Photo 1">
+      </div>
+      <div class="col-md-4">
+        <img src="image/WhatsApp Image 2025-06-23 at 16.42.41_74c98d56.jpg" class="img-fluid rounded shadow gallery-img" alt="Photo 2">
+      </div>
+      <div class="col-md-4">
+        <img src="image/WhatsApp Image 2025-06-23 at 16.46.13_bfd703a1.jpg"class="img-fluid rounded shadow gallery-img" alt="Photo 3">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Connect -->
+<section id="connect" class="py-5 bg-white text-center">
+  <div class="container">
+    <h2 class="fw-bold mb-4">Let's Connect</h2>
+    <div class="d-flex justify-content-center gap-4 flex-wrap">
+      <a href="https://wa.me/7049924868" class="btn btn-success shadow"><i class="fab fa-whatsapp me-2"></i>WhatsApp</a>
+      <a href="https://instagram.com/rd506337" class="btn btn-danger shadow"><i class="fab fa-instagram me-2"></i>Instagram</a>
+      <a href="https://www.linkedin.com/in/ragini-dwivedi-47205a340?" class="btn btn-primary shadow"><i class="fab fa-linkedin me-2"></i>LinkedIn</a>
+      <a href="https://github.com/raginidwivedi1526" class="btn btn-dark shadow"><i class="fab fa-github me-2"></i>GitHub</a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <p class="mb-0">&copy; 2025 Ragini Dwivedi. All Rights Reserved.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Navbar scroll effect
+  window.addEventListener("scroll", function () {
+    const navbar = document.querySelector(".navbar");
+    navbar.classList.toggle("scrolled", window.scrollY > 50);
+  });
+</script>
+</body>
+</html>
